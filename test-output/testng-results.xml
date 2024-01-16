@@ -1,79 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="14" passed="11" failed="0" skipped="0">
+<testng-results ignored="6" total="17" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-15T11:31:44 IST" name="Suite" finished-at="2024-01-15T11:32:02 IST" duration-ms="17587">
+  <suite started-at="2024-01-16T12:50:15 IST" name="Suite" finished-at="2024-01-16T12:50:35 IST" duration-ms="19992">
     <groups>
     </groups>
-    <test started-at="2024-01-15T11:31:44 IST" name="Test" finished-at="2024-01-15T11:32:02 IST" duration-ms="17587">
+    <test started-at="2024-01-16T12:50:15 IST" name="Test" finished-at="2024-01-16T12:50:35 IST" duration-ms="19992">
       <class name="testclasses.SolutionTest">
-        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.SolutionTest@15043a2f]" started-at="2024-01-15T11:31:45 IST" name="createObject" finished-at="2024-01-15T11:31:45 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createObject -->
-        <test-method signature="solutionButton()[pri:1, instance:testclasses.SolutionTest@15043a2f]" started-at="2024-01-15T11:31:45 IST" name="solutionButton" finished-at="2024-01-15T11:31:45 IST" duration-ms="194" status="PASS">
+        <test-method signature="solutionButton()[pri:1, instance:testclasses.SolutionTest@1349883]" started-at="2024-01-16T12:50:16 IST" name="solutionButton" finished-at="2024-01-16T12:50:16 IST" duration-ms="513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- solutionButton -->
-        <test-method signature="allSolutions()[pri:2, instance:testclasses.SolutionTest@15043a2f]" started-at="2024-01-15T11:31:45 IST" name="allSolutions" finished-at="2024-01-15T11:31:45 IST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.SolutionTest@1349883]" started-at="2024-01-16T12:50:16 IST" name="createObject" finished-at="2024-01-16T12:50:16 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createObject -->
+        <test-method signature="allSolutions()[pri:2, instance:testclasses.SolutionTest@1349883]" started-at="2024-01-16T12:50:16 IST" name="allSolutions" finished-at="2024-01-16T12:50:17 IST" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- allSolutions -->
       </class> <!-- testclasses.SolutionTest -->
       <class name="testclasses.HeaderTest">
-        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.HeaderTest@1349883]" started-at="2024-01-15T11:31:59 IST" name="createObject" finished-at="2024-01-15T11:31:59 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.HeaderTest@7f485fda]" started-at="2024-01-16T12:50:31 IST" name="createObject" finished-at="2024-01-16T12:50:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createObject -->
-        <test-method signature="entaratext()[pri:1, instance:testclasses.HeaderTest@1349883]" started-at="2024-01-15T11:31:59 IST" name="entaratext" finished-at="2024-01-15T11:31:59 IST" duration-ms="329" status="PASS">
+        <test-method signature="entaratext()[pri:1, instance:testclasses.HeaderTest@7f485fda]" started-at="2024-01-16T12:50:31 IST" name="entaratext" finished-at="2024-01-16T12:50:31 IST" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- entaratext -->
-        <test-method signature="cookiesbannar()[pri:2, instance:testclasses.HeaderTest@1349883]" started-at="2024-01-15T11:31:59 IST" name="cookiesbannar" finished-at="2024-01-15T11:31:59 IST" duration-ms="109" status="PASS">
+        <test-method signature="cookiesbannar()[pri:2, instance:testclasses.HeaderTest@7f485fda]" started-at="2024-01-16T12:50:31 IST" name="cookiesbannar" finished-at="2024-01-16T12:50:32 IST" duration-ms="170" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cookiesbannar -->
-        <test-method signature="videobutton()[pri:3, instance:testclasses.HeaderTest@1349883]" started-at="2024-01-15T11:31:59 IST" name="videobutton" finished-at="2024-01-15T11:31:59 IST" duration-ms="89" status="PASS">
+        <test-method signature="videobutton()[pri:3, instance:testclasses.HeaderTest@7f485fda]" started-at="2024-01-16T12:50:32 IST" name="videobutton" finished-at="2024-01-16T12:50:32 IST" duration-ms="521" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- videobutton -->
-        <test-method signature="closebutton()[pri:4, instance:testclasses.HeaderTest@1349883]" started-at="2024-01-15T11:31:59 IST" name="closebutton" finished-at="2024-01-15T11:32:02 IST" duration-ms="2287" status="PASS">
+        <test-method signature="closebutton()[pri:4, instance:testclasses.HeaderTest@7f485fda]" started-at="2024-01-16T12:50:32 IST" name="closebutton" finished-at="2024-01-16T12:50:35 IST" duration-ms="2823" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closebutton -->
       </class> <!-- testclasses.HeaderTest -->
       <class name="testclasses.ProductsTest">
-        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testclasses.ProductsTest@7bba5817]" started-at="2024-01-15T11:31:30 IST" name="initBrowser" finished-at="2024-01-15T11:31:44 IST" duration-ms="13850" status="PASS">
+        <test-method is-config="true" signature="initBrowser()[pri:0, instance:testclasses.ProductsTest@75437611]" started-at="2024-01-16T12:49:52 IST" name="initBrowser" finished-at="2024-01-16T12:50:15 IST" duration-ms="22887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initBrowser -->
-        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.ProductsTest@7bba5817]" started-at="2024-01-15T11:31:44 IST" name="createObject" finished-at="2024-01-15T11:31:44 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.ProductsTest@75437611]" started-at="2024-01-16T12:50:15 IST" name="createObject" finished-at="2024-01-16T12:50:15 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createObject -->
-        <test-method signature="verifyTitle()[pri:1, instance:testclasses.ProductsTest@7bba5817]" started-at="2024-01-15T11:31:44 IST" name="verifyTitle" finished-at="2024-01-15T11:31:44 IST" duration-ms="274" status="PASS">
+        <test-method signature="verifyTitle()[pri:1, instance:testclasses.ProductsTest@75437611]" started-at="2024-01-16T12:50:15 IST" name="verifyTitle" finished-at="2024-01-16T12:50:16 IST" duration-ms="100" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method signature="Products()[pri:2, instance:testclasses.ProductsTest@7bba5817]" started-at="2024-01-15T11:31:44 IST" name="Products" finished-at="2024-01-15T11:31:45 IST" duration-ms="301" status="PASS">
+        <test-method signature="Products()[pri:2, instance:testclasses.ProductsTest@75437611]" started-at="2024-01-16T12:50:16 IST" name="Products" finished-at="2024-01-16T12:50:16 IST" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Products -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testclasses.ProductsTest@75437611]" started-at="2024-01-16T12:50:36 IST" name="tearDown" finished-at="2024-01-16T12:50:37 IST" duration-ms="1673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- testclasses.ProductsTest -->
       <class name="testclasses.WatchDemoTest">
-        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.WatchDemoTest@4a83a74a]" started-at="2024-01-15T11:31:45 IST" name="createObject" finished-at="2024-01-15T11:31:45 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="createObject()[pri:0, instance:testclasses.WatchDemoTest@4b29d1d2]" started-at="2024-01-16T12:50:17 IST" name="createObject" finished-at="2024-01-16T12:50:17 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createObject -->
-        <test-method signature="demo()[pri:1, instance:testclasses.WatchDemoTest@4a83a74a]" started-at="2024-01-15T11:31:45 IST" name="demo" finished-at="2024-01-15T11:31:55 IST" duration-ms="10027" status="PASS">
+        <test-method signature="demo()[pri:1, instance:testclasses.WatchDemoTest@4b29d1d2]" started-at="2024-01-16T12:50:17 IST" name="demo" finished-at="2024-01-16T12:50:26 IST" duration-ms="9169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- demo -->
-        <test-method signature="enterData()[pri:2, instance:testclasses.WatchDemoTest@4a83a74a]" started-at="2024-01-15T11:31:55 IST" name="enterData" finished-at="2024-01-15T11:31:57 IST" duration-ms="1708" status="PASS">
+        <test-method signature="enterData()[pri:2, instance:testclasses.WatchDemoTest@4b29d1d2]" started-at="2024-01-16T12:50:26 IST" name="enterData" finished-at="2024-01-16T12:50:28 IST" duration-ms="2133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterData -->
-        <test-method signature="backStep()[pri:3, instance:testclasses.WatchDemoTest@4a83a74a]" started-at="2024-01-15T11:31:57 IST" name="backStep" finished-at="2024-01-15T11:31:59 IST" duration-ms="1954" status="PASS">
+        <test-method signature="backStep()[pri:3, instance:testclasses.WatchDemoTest@4b29d1d2]" started-at="2024-01-16T12:50:28 IST" name="backStep" finished-at="2024-01-16T12:50:31 IST" duration-ms="2983" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- backStep -->

@@ -3,12 +3,43 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="testclasses.SolutionTest">
+        <methods>
+          <include name="solutionButton"/>
+          <include name="initBrowser"/>
+          <include name="allSolutions"/>
+          <include name="createObject"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testclasses.SolutionTest -->
+      <class name="testclasses.ProductsTest">
+        <methods>
+          <include name="initBrowser"/>
+          <include name="verifyTitle"/>
+          <include name="createObject"/>
+          <include name="Products"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testclasses.ProductsTest -->
+      <class name="testclasses.WatchDemoTest">
+        <methods>
+          <include name="enterData"/>
+          <include name="backStep"/>
+          <include name="initBrowser"/>
+          <include name="demo"/>
+          <include name="createObject"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testclasses.WatchDemoTest -->
       <class name="testclasses.HeaderTest">
         <methods>
           <include name="initBrowser"/>
+          <include name="cookiesbannar"/>
           <include name="videobutton"/>
+          <include name="entaratext"/>
           <include name="createObject"/>
           <include name="closebutton"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- testclasses.HeaderTest -->
     </classes>

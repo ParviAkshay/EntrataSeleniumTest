@@ -12,6 +12,7 @@ import pageclass.Header;
 import pageclass.Products;
 import pageclass.Solutions;
 import pageclass.WatchDemo;
+import utility.ReadProp;
 
 public class BaseTest 
 {
@@ -31,8 +32,10 @@ public class BaseTest
 		driver = new EdgeDriver();	
 		
 		driver.manage().window().maximize();
+		
+//		driver.get("https://www.entrata.com");
 	
-		driver.get("https://www.entrata.com/");
+		driver.get(ReadProp.getProp("url"));
 		
 	}
 	
